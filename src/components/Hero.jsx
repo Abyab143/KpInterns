@@ -6,9 +6,9 @@ import Image from "next/image";
 
 const Hero = () => {
   const stats = [
-    { number: "769+", label: "Recorded Videos" },
-    { number: "1200+", label: "Happy Students" },
-    { number: "10+", label: "Course Topics" },
+    { number: "50,000+", label: "Students Trained" },
+    { number: "100+", label: "Courses" },
+    { number: "100+", label: "Universities" },
   ];
 
   return (
@@ -37,24 +37,22 @@ const Hero = () => {
               <div className="bg-white/80 dark:bg-bg-card/80 backdrop-blur-sm border border-brand-primary/30 rounded-full px-4 sm:px-6 py-2.5 sm:py-3 flex items-center gap-2 sm:gap-3 hover:border-brand-primary/60 hover:bg-white dark:hover:bg-bg-card transition-all shadow-md hover:shadow-lg duration-300">
                 <div className="w-4 sm:w-5 h-4 sm:h-5 bg-gradient-to-br from-brand-primary to-brand-secondary rounded-full flex items-center justify-center shadow-md group-hover:scale-110 transition-transform"></div>
                 <span className="text-xs sm:text-sm font-bold text-brand-primary uppercase tracking-widest">
-                  🚀 Elevate Your Career
+                  AICTE & UGC compliant Programs
                 </span>
               </div>
             </div>
-              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black leading-[1.15] text-text-main">
-                Transform Your
+              <h1 className="text-4xl sm:text-5xl  font-black leading-[1.15] text-text-main">
+                India's Leading Internship and Courses Platform for
                 <br />
                 <span className="relative inline-block">
                   <span className="absolute -inset-2"></span>
                   <span className="relative bg-linear-to-r from-brand-primary via-brand-secondary to-brand-primary bg-clip-text text-transparent bg-300% animate-gradient">
-                    Skills & Career
+                    UG Students
                   </span>
                 </span>
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-text-muted leading-relaxed max-w-2xl font-medium opacity-90 hover:opacity-100 transition-opacity">
-                Join thousands of learners on our modern platform. Master
-                in-demand skills with expert instructors and launch your tech
-                career today.
+                Skill-based training and industry internships as per AICTE and UGC guidelines. We provide structured programs for technical and non-technical students across India.
               </p>
             </div>
 
@@ -66,7 +64,7 @@ const Hero = () => {
               >
                 <span className="absolute inset-0 bg-gradient-to-r from-brand-secondary via-brand-primary to-brand-secondary opacity-0 group-hover:opacity-100 transition-opacity duration-300 animate-shimmer"></span>
                 <span className="relative flex items-center gap-2">
-                  Explore Courses
+                  Explore Internships
                   <svg
                     className="w-5 h-5 group-hover:translate-x-2 group-hover:scale-110 transition-all"
                     fill="none"
@@ -87,7 +85,7 @@ const Hero = () => {
                 className="group relative inline-flex items-center justify-center px-8 sm:px-10 py-4 sm:py-5 text-sm sm:text-base font-bold text-brand-primary rounded-full border-2 border-brand-primary bg-white dark:bg-bg-card hover:bg-brand-primary/10 dark:hover:bg-brand-primary/10 transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105 active:scale-95"
               >
                 <span className="flex items-center gap-2">
-                  Learn More
+                  Explore Courses
                   <svg
                     className="w-5 h-5 group-hover:translate-x-2 group-hover:scale-110 transition-all"
                     fill="none"
@@ -112,7 +110,7 @@ const Hero = () => {
                   key={index}
                   className="group cursor-pointer text-center sm:text-left"
                 >
-                  <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black bg-linear-to-r from-brand-primary to-brand-secondary bg-clip-text text-transparent group-hover:scale-125 transition-transform duration-300">
+                  <p className="text-2xl sm:text-3xl md:text-4xl font-black bg-linear-to-r from-brand-primary to-brand-secondary bg-clip-text text-transparent group-hover:scale-125 transition-transform duration-300">
                     {stat.number}
                   </p>
                   <p className="text-xs sm:text-sm text-text-muted font-semibold mt-2 group-hover:text-brand-primary transition-colors">
@@ -157,7 +155,7 @@ const Hero = () => {
                   </div>
                 </div>
                 <div>
-                  <p className="font-bold text-text-main text-sm">Aziz Ahmed</p>
+                  <p className="font-bold text-text-main text-sm">Abyab</p>
                   <p className="text-xs text-brand-secondary font-semibold">
                     Student | Batch 01
                   </p>

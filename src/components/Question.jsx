@@ -122,7 +122,7 @@ const Question = () => {
               />
             </div>
             <p className="text-sm text-text-muted sm:text-center">
-              <span className="text-base font-bold text-text-main block mb-1">ISO 27001 Certified</span>
+              <span className="text-base font-bold text-text-main block mb-1">ISO 9001:2015</span>
               Compliant with international
               <br /> data standards
             </p>
@@ -131,8 +131,8 @@ const Question = () => {
           <div className="flex flex-col sm:items-center">
             <div className="w-16 h-16 flex items-center justify-start sm:justify-center mb-3">
               <Image
-                src="/iso.png"
-                alt="ISO Certification"
+                src="/msme.png"
+                alt="MSME Certification"
                 width={50}
                 height={50}
                 className="object-contain"
@@ -150,7 +150,7 @@ const Question = () => {
           <div className="flex flex-col sm:items-center">
             <div className="w-16 h-16 flex items-center justify-start sm:justify-center mb-3">
               <Image
-                src="/entity.png"
+                src="/aicte.png"
                 alt="Regulated Entity"
                 width={50}
                 height={50}
@@ -158,27 +158,27 @@ const Question = () => {
               />
             </div>
             <p className="text-sm text-text-muted sm:text-center">
-              <span className="text-base font-bold text-text-main block mb-1">Verified Programs</span>
-              Industry recognized professional
-              <br /> curriculum certifications
+              <span className="text-base font-bold text-text-main block mb-1">AICTE Registered</span>
+              All technical programs follow All India Council for 
+              <br /> Technical Education standards
             </p>
           </div>
 
           {/* Secure Badge */}
           <div className="flex flex-col sm:items-center">
-            <div className="w-16 h-16 flex items-center justify-start sm:justify-center mb-3">
+            <div className="w-16 h-16 flex items-center justify-start sm:justify-center  mb-3">
               <Image
-                src="/secure.png"
+                src="/ugc.jpg"
                 alt="Secure Platform"
                 width={50}
                 height={50}
-                className="object-contain"
+                className="object-cover rounded-full"
               />
             </div>
             <p className="text-sm text-text-muted sm:text-center">
-              <span className="text-base font-bold text-text-main block mb-1">Secure and private</span>
-              Data completely encrypted with
-              <br /> 256-bit AES protection
+              <span className="text-base font-bold text-text-main block mb-1">UGC Compliant</span>
+              Non-technical courses follow University Grants
+              <br /> Commission regulation
             </p>
           </div>
         </div>

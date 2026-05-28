@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import React from "react";
 
 export default function AboutPage() {
@@ -60,27 +61,16 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-bg-main">
       {/* Hero Section */}
-      <section className="py-16  bg-gradient-to-br from-brand-primary/10 to-brand-secondary/10">
-        <div className=" mx-auto text-center">
-          <h1 className="text-5xl md:text-6xl font-extrabold text-text-main mb-6">
-            About <span className="text-brand-primary">PKJ Interns</span>
-          </h1>
-          <p className="text-xl text-text-muted max-w-3xl mx-auto leading-relaxed">
-            Empowering students and professionals with industry-relevant skills,
-            knowledge, and mentorship to excel in the competitive world of
-            design and development.
-          </p>
-        </div>
-      </section>
+  
 
       {/* Main Content */}
       <div className=" mx-auto px-4 sm:px-8 lg:px-[96px]">
         {/* About Section */}
-        <section className="py-20">
+        <section className="py-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl font-extrabold text-text-main mb-6">
-                About PKJ Interns
+                About <span className="text-bg-main bg-text-main rounded-full p-2"> Kp</span><span className="text-brand-primary">Interns</span>
               </h2>
               <p className="text-lg text-text-muted leading-relaxed mb-4">
                 Welcome to our platform, where we are passionate about
@@ -105,14 +95,14 @@ export default function AboutPage() {
             </div>
             <div className="relative">
               <div className="bg-gradient-to-br from-brand-primary to-brand-secondary rounded-2xl p-1 shadow-2xl">
-                <div className="bg-bg-card rounded-2xl p-12 flex items-center justify-center min-h-96">
-                  <svg
-                    className="w-48 h-48 text-brand-primary opacity-20"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                  >
-                    <path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM9 6a3 3 0 11-6 0 3 3 0 016 0zM9 6a3 3 0 11-6 0 3 3 0 016 0zm12 6a9 9 0 11-18 0 9 9 0 0118 0zm-9 -4a4 4 0 11-8 0 4 4 0 018 0z" />
-                  </svg>
+                <div className="p-12 animate-bounce flex items-center justify-center min-h-96">
+                   <Image
+                                  src="/banner.png"
+                                  alt="Transform Your Skills and Career"
+                                  fill
+                                  priority
+                                  className="object-contain object-center group-hover:scale-110 transition-transform duration-700"
+                                />
                 </div>
               </div>
             </div>

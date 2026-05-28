@@ -162,7 +162,7 @@ const Why = () => {
           Designed for
           <br />
           <span className="bg-linear-to-r from-brand-primary via-brand-secondary to-brand-primary bg-clip-text text-transparent bg-300% animate-gradient">
-            Bihar's UG Students
+            Indian UG Students
           </span>
         </h2>
 
@@ -193,9 +193,7 @@ const Why = () => {
               >
                 {/* Gradient Background on Hover */}
                 <div
-                  className={`absolute inset-0 bg-gradient-to-br ${feature.lightColor} opacity-0 transition-opacity duration-300 -z-10 ${
-                    hoveredCard === feature.id ? "opacity-100" : ""
-                  }`}
+                  className={``}
                 ></div>
 
                 
