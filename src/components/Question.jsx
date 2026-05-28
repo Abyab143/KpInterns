@@ -123,8 +123,8 @@ const Question = () => {
             </div>
             <p className="text-sm text-text-muted sm:text-center">
               <span className="text-base font-bold text-text-main block mb-1">ISO 9001:2015</span>
-              Compliant with international
-              <br /> data standards
+              certified for quality management systems, ensuring consistent delivery of 
+              <br /> high-quality courses and services.
             </p>
           </div>
 
@@ -140,8 +140,8 @@ const Question = () => {
             </div>
             <p className="text-sm text-text-muted sm:text-center">
               <span className="text-base font-bold text-text-main block mb-1">MSME Certified</span>
-              Compliant with international
-              <br /> data standards
+              Recognized as a Micro, Small & Medium Enterprise 
+              <br /> by the Government of India
             </p>
           </div>
           
