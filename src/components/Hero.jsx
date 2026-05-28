@@ -12,7 +12,7 @@ const Hero = () => {
   ];
 
   return (
-    <section className="relative overflow-hidden bg-bg-main  flex items-center justify-center px-4 sm:px-8 lg:px-[96px] py-8 sm:py-12 lg:py-16">
+    <section className="relative overflow-hidden bg-bg-main  flex items-center justify-center px-4 sm:px-8 lg:px-[96px] py-8 ">
       {/* Animated gradient background using theme colors - Enhanced */}
       <div className="absolute top-0 left-0 w-[250px] h-[250px] sm:w-[350px] sm:h-[350px] lg:w-[600px] lg:h-[600px] bg-gradient-to-br from-brand-primary/20 to-brand-secondary/15 rounded-full -translate-x-1/3 -translate-y-1/3 blur-3xl animate-pulse"></div>
       <div
