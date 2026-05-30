@@ -63,7 +63,7 @@ const Hero = () => {
             {/* Main Heading - Enhanced */}
             <div className="space-y-5 sm:space-y-6">
               <div className="inline-block group">
-                <div className="bg-white/80 dark:bg-bg-card/80 backdrop-blur-sm border border-brand-primary/30 rounded-full px-4 sm:px-6 py-2.5 sm:py-3 flex items-center gap-2 sm:gap-3 hover:border-brand-primary/60 hover:bg-white dark:hover:bg-bg-card transition-all shadow-md hover:shadow-lg duration-300">
+                <div className="bg-white/80 dark:bg-bg-card backdrop-blur-sm border border-brand-primary/30 rounded-full px-4 sm:px-6 py-2.5 sm:py-3 flex items-center gap-2 sm:gap-3 hover:border-brand-primary/60 hover:bg-white dark:hover:bg-bg-card transition-all shadow-md hover:shadow-lg duration-300">
                   <div className="w-4 sm:w-5 h-4 sm:h-5 bg-gradient-to-br from-brand-primary to-brand-secondary rounded-full flex items-center justify-center shadow-md group-hover:scale-110 transition-transform"></div>
                   <span className="text-xs sm:text-sm font-bold text-brand-primary uppercase tracking-widest">
                     AICTE & UGC compliant Programs
@@ -71,11 +71,11 @@ const Hero = () => {
                 </div>
               </div>
               <h1 className="text-4xl sm:text-5xl  font-black leading-[1.15] text-text-main">
-                India's Leading Internship and Courses Platform 
+                India's Leading Internship and Courses Platform
                 <br />
                 <span className="relative inline-block">
                   <span className="relative bg-linear-to-r from-brand-primary via-brand-secondary to-brand-primary bg-clip-text text-transparent bg-300% animate-gradient">
-                   for UG Students
+                    for UG Students
                   </span>
                 </span>
               </h1>
@@ -180,7 +180,7 @@ const Hero = () => {
             </div>
 
             {/* Floating testimonial card - Enhanced */}
-            <div className="absolute bottom-3 sm:bottom-6 lg:bottom-8 -left-4 sm:-left-8 lg:-left-16 bg-bg-card/95 dark:bg-bg-card/90 backdrop-blur-md rounded-xl sm:rounded-2xl shadow-2xl p-4 sm:p-6 max-w-xs sm:max-w-sm z-30 hover:shadow-3xl hover:-translate-y-3 transition-all duration-300 border border-brand-primary/20 hover:border-brand-primary/40 hidden sm:block group/card">
+            <div className="absolute bottom-3 sm:bottom-6 lg:bottom-8 -left-4 sm:-left-8 lg:-left-16 bg-bg-card/95 dark:bg-bg-card backdrop-blur-md rounded-xl sm:rounded-2xl shadow-2xl p-4 sm:p-6 max-w-xs sm:max-w-sm z-30 hover:shadow-3xl hover:-translate-y-3 transition-all duration-300 border border-brand-primary/20 hover:border-brand-primary/40 hidden sm:block group/card">
               <div className="flex items-center gap-3 mb-4">
                 <div className="flex-shrink-0">
                   <div className="w-10 sm:w-12 h-10 sm:h-12 bg-gradient-to-br from-brand-primary to-brand-secondary rounded-full flex items-center justify-center text-white font-bold text-base sm:text-lg shadow-lg group-hover/card:scale-110 transition-transform">

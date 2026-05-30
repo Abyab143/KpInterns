@@ -33,7 +33,6 @@ const BranchesStreams = () => {
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <div className="text-center mb-6 animate-fade-in">
-          
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-text-main mb-4 leading-tight">
             Branches & Streams
             <br />
@@ -53,7 +52,7 @@ const BranchesStreams = () => {
         {/* Content Section - Both Cards Visible */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 lg:gap-12">
           {/* Technical Courses Card */}
-          <div className="group relative overflow-hidden rounded-2xl border border-brand-primary/20 hover:border-brand-primary/50 bg-white dark:bg-bg-card/60 shadow-lg hover:shadow-xl transition-all duration-300 p-8 md:p-10">
+          <div className="group relative overflow-hidden rounded-2xl border border-brand-primary/20 hover:border-brand-primary/50 bg-white dark:bg-bg-card shadow-lg hover:shadow-xl transition-all duration-300 p-8 md:p-10">
             {/* Gradient background overlay */}
             <div className="absolute inset-0 bg-gradient-to-br from-brand-primary/5 via-transparent to-brand-secondary/5 pointer-events-none"></div>
 
@@ -121,7 +120,7 @@ const BranchesStreams = () => {
           </div>
 
           {/* Non-Technical Courses Card */}
-          <div className="group relative overflow-hidden rounded-2xl border border-brand-secondary/20 hover:border-brand-secondary/50 bg-white dark:bg-bg-card/60 shadow-lg hover:shadow-xl transition-all duration-300 p-8 md:p-10">
+          <div className="group relative overflow-hidden rounded-2xl border border-brand-secondary/20 hover:border-brand-secondary/50 bg-white dark:bg-bg-card shadow-lg hover:shadow-xl transition-all duration-300 p-8 md:p-10">
             {/* Gradient background overlay */}
             <div className="absolute inset-0 bg-gradient-to-br from-brand-secondary/5 via-transparent to-brand-primary/5 pointer-events-none"></div>
 

@@ -128,7 +128,7 @@ export default function Navbar() {
             <Link href="/login" className="w-full text-center text-base font-semibold text-text-muted hover:text-text-main py-2.5 transition-colors">
               Log In
             </Link>
-            <Link href="/register"     className="w-full bg-brand-primary text-white text-base font-semibold py-3 rounded-xl hover:bg-brand-primary/90 transition-all shadow-md">
+            <Link href="/register"     className="w-full bg-brand-primary text-center text-white text-base font-semibold py-3 rounded-xl hover:bg-brand-primary/90 transition-all shadow-md">
               Register
             </Link>
           </div>
