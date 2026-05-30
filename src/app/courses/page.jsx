@@ -27,7 +27,7 @@ export default function InternshipPage() {
     <div className="min-h-screen bg-gradient-to-br from-bg-main  to-bg-card  flex items-center justify-center px-4 py-12">
       <div className="w-full max-w-2xl">
         {/* Main Card */}
-        <div className="bg-white dark:bg-bg-card rounded-3xl shadow-2xl p-8 sm:p-12 lg:p-16 border border-border-main backdrop-blur-sm text-center animate-fade-in">
+        <div className="bg-bg-card rounded-3xl shadow-2xl p-8 sm:p-12 lg:p-16 border border-border-main backdrop-blur-sm text-center animate-fade-in">
           
           {/* Icon Section */}
           {/* Main Heading */}

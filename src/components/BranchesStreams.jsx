@@ -52,7 +52,7 @@ const BranchesStreams = () => {
         {/* Content Section - Both Cards Visible */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 lg:gap-12">
           {/* Technical Courses Card */}
-          <div className="group relative overflow-hidden rounded-2xl border border-brand-primary/20 hover:border-brand-primary/50 bg-white dark:bg-bg-card shadow-lg hover:shadow-xl transition-all duration-300 p-8 md:p-10">
+          <div className="group relative overflow-hidden rounded-2xl border border-brand-primary/20 hover:border-brand-primary/50 bg-bg-card shadow-lg hover:shadow-xl transition-all duration-300 p-8 md:p-10">
             {/* Gradient background overlay */}
             <div className="absolute inset-0 bg-gradient-to-br from-brand-primary/5 via-transparent to-brand-secondary/5 pointer-events-none"></div>
 
@@ -61,7 +61,7 @@ const BranchesStreams = () => {
 
             <div className="relative z-10">
               {/* Header */}
-              <div className="flex items-center gap-4 mb-8">
+              <div className="flex items-center gap-4 bg-bg-card mb-8">
                 <div className="w-14 h-14 bg-gradient-to-br from-brand-primary/20 to-brand-secondary/15 rounded-xl flex items-center justify-center shadow-sm group-hover:scale-110 group-hover:shadow-md transition-all duration-300">
                   <span className="text-3xl">🏢</span>
                 </div>
@@ -120,7 +120,7 @@ const BranchesStreams = () => {
           </div>
 
           {/* Non-Technical Courses Card */}
-          <div className="group relative overflow-hidden rounded-2xl border border-brand-secondary/20 hover:border-brand-secondary/50 bg-white dark:bg-bg-card shadow-lg hover:shadow-xl transition-all duration-300 p-8 md:p-10">
+          <div className="group relative overflow-hidden rounded-2xl border border-brand-secondary/20 hover:border-brand-secondary/50 bg-bg-card shadow-lg hover:shadow-xl transition-all duration-300 p-8 md:p-10">
             {/* Gradient background overlay */}
             <div className="absolute inset-0 bg-gradient-to-br from-brand-secondary/5 via-transparent to-brand-primary/5 pointer-events-none"></div>
 
