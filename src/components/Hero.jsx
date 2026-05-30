@@ -1,8 +1,38 @@
 "use client";
 
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
+
+const Counter = ({ targetNumber, suffix = "+" }) => {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    let start = 0;
+    const end = parseInt(targetNumber.replace(/,/g, ""));
+    const duration = 2000; // 2 seconds animation
+    const increment = end / (duration / 16); // Update every 16ms (60fps)
+
+    const timer = setInterval(() => {
+      start += increment;
+      if (start >= end) {
+        setCount(end);
+        clearInterval(timer);
+      } else {
+        setCount(Math.floor(start));
+      }
+    }, 16);
+
+    return () => clearInterval(timer);
+  }, [targetNumber]);
+
+  return (
+    <>
+      {count.toLocaleString()}
+      {suffix}
+    </>
+  );
+};
 
 const Hero = () => {
   const stats = [
@@ -29,35 +59,35 @@ const Hero = () => {
           {/* Left Content */}
           <div className="space-y-6 sm:space-y-8 lg:space-y-10 animate-fade-in">
             {/* Badge - Enhanced */}
-            
 
             {/* Main Heading - Enhanced */}
             <div className="space-y-5 sm:space-y-6">
               <div className="inline-block group">
-              <div className="bg-white/80 dark:bg-bg-card/80 backdrop-blur-sm border border-brand-primary/30 rounded-full px-4 sm:px-6 py-2.5 sm:py-3 flex items-center gap-2 sm:gap-3 hover:border-brand-primary/60 hover:bg-white dark:hover:bg-bg-card transition-all shadow-md hover:shadow-lg duration-300">
-                <div className="w-4 sm:w-5 h-4 sm:h-5 bg-gradient-to-br from-brand-primary to-brand-secondary rounded-full flex items-center justify-center shadow-md group-hover:scale-110 transition-transform"></div>
-                <span className="text-xs sm:text-sm font-bold text-brand-primary uppercase tracking-widest">
-                  AICTE & UGC compliant Programs
-                </span>
+                <div className="bg-white/80 dark:bg-bg-card/80 backdrop-blur-sm border border-brand-primary/30 rounded-full px-4 sm:px-6 py-2.5 sm:py-3 flex items-center gap-2 sm:gap-3 hover:border-brand-primary/60 hover:bg-white dark:hover:bg-bg-card transition-all shadow-md hover:shadow-lg duration-300">
+                  <div className="w-4 sm:w-5 h-4 sm:h-5 bg-gradient-to-br from-brand-primary to-brand-secondary rounded-full flex items-center justify-center shadow-md group-hover:scale-110 transition-transform"></div>
+                  <span className="text-xs sm:text-sm font-bold text-brand-primary uppercase tracking-widest">
+                    AICTE & UGC compliant Programs
+                  </span>
+                </div>
               </div>
-            </div>
               <h1 className="text-4xl sm:text-5xl  font-black leading-[1.15] text-text-main">
-                India's Leading Internship and Courses Platform for
+                India's Leading Internship and Courses Platform 
                 <br />
                 <span className="relative inline-block">
-                  <span className="absolute -inset-2"></span>
                   <span className="relative bg-linear-to-r from-brand-primary via-brand-secondary to-brand-primary bg-clip-text text-transparent bg-300% animate-gradient">
-                    UG Students
+                   for UG Students
                   </span>
                 </span>
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-text-muted leading-relaxed max-w-2xl font-medium opacity-90 hover:opacity-100 transition-opacity">
-                Skill-based training and industry internships as per AICTE and UGC guidelines. We provide structured programs for technical and non-technical students across India.
+                Skill-based training and industry internships as per AICTE and
+                UGC guidelines. We provide structured programs for technical and
+                non-technical students across India.
               </p>
             </div>
 
             {/* CTA Buttons - Enhanced */}
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-5 pt-4 sm:pt-6">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-5">
               <Link
                 href="/courses"
                 className="group relative inline-flex items-center justify-center px-8 sm:px-10 py-4 sm:py-5 text-sm sm:text-base font-bold text-white rounded-full bg-gradient-to-r from-brand-primary to-brand-secondary shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden hover:scale-105 active:scale-95"
@@ -104,14 +134,17 @@ const Hero = () => {
             </div>
 
             {/* Stats - Enhanced */}
-            <div className="grid grid-cols-3 gap-4 sm:gap-6 pt-8 sm:pt-10 border-t border-border-main/50">
+            <div className="grid grid-cols-3 gap-4 sm:gap-6">
               {stats.map((stat, index) => (
                 <div
                   key={index}
                   className="group cursor-pointer text-center sm:text-left"
                 >
                   <p className="text-2xl sm:text-3xl md:text-4xl font-black bg-linear-to-r from-brand-primary to-brand-secondary bg-clip-text text-transparent group-hover:scale-125 transition-transform duration-300">
-                    {stat.number}
+                    <Counter
+                      targetNumber={stat.number.replace("+", "")}
+                      suffix="+"
+                    />
                   </p>
                   <p className="text-xs sm:text-sm text-text-muted font-semibold mt-2 group-hover:text-brand-primary transition-colors">
                     {stat.label}

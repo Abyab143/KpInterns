@@ -9,9 +9,9 @@ const Question = () => {
   // Dummy FAQ data
   const faqData = [
     {
-      question: "What is PKJ Interns?",
+      question: "What is Kp Interns?",
       answer:
-        "PKJ Interns is a comprehensive online learning platform that provides industry-relevant courses, internship opportunities, and mentorship from experienced professionals. We empower students and professionals to master in-demand skills in design, development, and modern technologies to excel in their careers.",
+        "Kp Interns is a comprehensive online learning platform that provides industry-relevant courses, internship opportunities, and mentorship from experienced professionals. We empower students and professionals to master in-demand skills in design, development, and modern technologies to excel in their careers.",
     },
     {
       question: "How do the internship programs work?",
@@ -19,7 +19,7 @@ const Question = () => {
         "Our internship programs are designed to give you hands-on experience with real-world projects. You'll work alongside industry experts, gain practical skills, build a professional portfolio, and receive mentorship to kickstart your career. Each internship program is tailored to your skill level and career goals.",
     },
     {
-      question: "What courses are available on PKJ Interns?",
+      question: "What courses are available on Kp Interns?",
       answer:
         "We offer a wide range of courses covering web development, app development, UI/UX design, digital marketing, and more. All courses are designed to be practical, project-based, and aligned with current industry standards. Each course includes video lessons, assignments, and real-world projects.",
     },

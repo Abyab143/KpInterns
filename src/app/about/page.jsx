@@ -248,7 +248,7 @@ export default function AboutPage() {
         {/* Team Section */}
         <section className="py-20 border-t border-border-main">
           <h2 className="text-4xl font-extrabold text-text-main mb-12 text-center">
-            Why Choose PKJ Interns?
+            Why Choose Kp Interns?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="flex gap-6">

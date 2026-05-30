@@ -32,7 +32,7 @@ const Footer = () => {
               </div>
               {/* Company tagline */}
               <p className="text-md text-text-muted text-justify leading-relaxed">
-                PKJ Interns is your comprehensive learning and growth partner – helping you track,
+                  kp Interns is your comprehensive learning and growth partner – helping you track,
                 plan, and upscale your professional career with personalized insights and smarter
                 educational roadmaps. Because your future deserves the absolute best!
               </p>
@@ -116,7 +116,7 @@ const Footer = () => {
         <div className="border-t border-border-main border-opacity-60 pt-8 flex flex-col gap-6 md:flex-row md:justify-between items-center">
           <div>
             <p className="text-xs text-text-muted text-center md:text-left">
-              © 2021-2026 PKJ Interns. ALL RIGHTS RESERVED | MADE WITH ♥
+              © 2021-2026 Kp Interns. ALL RIGHTS RESERVED | MADE WITH ♥
             </p>
           </div>
 

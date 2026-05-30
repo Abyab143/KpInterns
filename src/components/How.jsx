@@ -47,7 +47,7 @@ const How = () => {
       <div className="absolute bottom-0 left-0 w-[300px] h-[300px] bg-gradient-to-tr from-brand-secondary/10 to-transparent rounded-full blur-3xl -z-10"></div>
 
       {/* Header Section */}
-      <div className="text-center mb-12 sm:mb-16 lg:mb-20 animate-fade-in">
+      <div className="text-center mb-6 animate-fade-in">
         <p className="text-brand-primary text-sm sm:text-base font-bold uppercase tracking-widest mb-3">
           Simple Process
         </p>
@@ -175,7 +175,7 @@ const How = () => {
           </div>
         </div>
       </div>
-      <div className="max-w-3xl mx-auto text-center mt-16 sm:mt-20 lg:mt-28 animate-fade-in">
+      <div className="max-w-3xl mx-auto text-center mt-16 animate-fade-in">
         <div className="bg-gradient-to-r from-brand-primary/10 to-brand-secondary/10 border border-brand-primary/20 rounded-3xl p-8 sm:p-10 lg:p-12 backdrop-blur-sm hover:border-brand-primary/40 transition-all duration-300">
           <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-text-main mb-4">
             Ready to Transform Your Career?

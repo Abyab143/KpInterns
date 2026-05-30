@@ -20,11 +20,12 @@ export default function Navbar() {
   // Dynamic Array for your menu links to keep code clean and maintainable
   const navLinks = [
     { label: "Home", href: "/" },
-    { label: "Internship", href: "/internships" },
+    { label: "Internship", href: "/internship" },
     { label: "Courses", href: "/courses" },
     { label: "Verify", href: "/verify" },
     { label: "About us", href: "/about" },
     { label: "Contact", href: "/contact" },
+    
   ];
 
   return (
@@ -71,12 +72,12 @@ export default function Navbar() {
               )}
             </button>
 
-            <button className="text-sm font-semibold text-text-muted hover:text-text-main px-3 py-2 transition-colors">
+            <Link href="/login" className="text-sm font-semibold text-text-muted hover:text-text-main px-3 py-2 transition-colors">
               Log In
-            </button>
-            <button className="bg-brand-primary text-white text-sm font-semibold px-5 py-2.5 rounded-xl hover:bg-brand-primary/90 transition-all shadow-md">
+            </Link>
+            <Link href="/register" className="bg-brand-primary text-white text-sm font-semibold px-5 py-2.5 rounded-xl hover:bg-brand-primary/90 transition-all shadow-md">
               Register
-            </button>
+            </Link>
           </div>
 
           {/* Mobile View Right Side Controls */}
@@ -124,12 +125,12 @@ export default function Navbar() {
           ))}
           
           <div className="pt-4 mt-2 border-t border-border-main px-3 flex flex-col space-y-2">
-            <button className="w-full text-center text-base font-semibold text-text-muted hover:text-text-main py-2.5 transition-colors">
+            <Link href="/login" className="w-full text-center text-base font-semibold text-text-muted hover:text-text-main py-2.5 transition-colors">
               Log In
-            </button>
-            <button className="w-full bg-brand-primary text-white text-base font-semibold py-3 rounded-xl hover:bg-brand-primary/90 transition-all shadow-md">
+            </Link>
+            <Link href="/register"     className="w-full bg-brand-primary text-white text-base font-semibold py-3 rounded-xl hover:bg-brand-primary/90 transition-all shadow-md">
               Register
-            </button>
+            </Link>
           </div>
         </div>
       </div>

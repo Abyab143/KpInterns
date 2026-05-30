@@ -20,7 +20,7 @@ export default function VerifyPage() {
     setTimeout(() => {
       setVerificationResult({
         success: true,
-        certificateId: "PKJ-2024-001234",
+        certificateId: "Kp-2024-001234",
         holder: "John Doe",
         course: "Full Stack Web Development",
         issuedDate: "March 15, 2024",
@@ -41,7 +41,7 @@ export default function VerifyPage() {
       icon: "✅",
       title: "Instant Results",
       description:
-        "Get immediate verification results for certificates issued by PKJ Interns with real-time database checks.",
+        "Get immediate verification results for certificates issued by Kp Interns with real-time database checks.",
     },
     {
       icon: "🌐",
@@ -113,7 +113,7 @@ export default function VerifyPage() {
     {
       question: "How long are certificates valid?",
       answer:
-        "Most PKJ Interns certificates are valid for one year from the date of issue. Validity period is mentioned in your certificate.",
+        "Most Kp Interns certificates are valid for one year from the date of issue. Validity period is mentioned in your certificate.",
     },
   ];
 
@@ -143,7 +143,7 @@ export default function VerifyPage() {
             Certificate <span className="text-brand-primary">Verification</span>
           </h1>
           <p className="text-xl text-text-muted max-w-3xl mx-auto leading-relaxed">
-            Verify the authenticity of PKJ Interns certificates instantly. Enter
+            Verify the authenticity of Kp Interns certificates instantly. Enter
             your Certificate ID, email, or phone number to get complete
             verification details.
           </p>
@@ -478,7 +478,7 @@ export default function VerifyPage() {
           </h2>
           <p className="text-xl text-white/90 max-w-2xl mx-auto mb-8 leading-relaxed">
             Explore our comprehensive courses and internship programs to earn
-            industry-recognized certificates from PKJ Interns.
+            industry-recognized certificates from Kp Interns.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-white text-brand-primary font-bold px-8 py-4 rounded-xl hover:shadow-lg transition-all">
