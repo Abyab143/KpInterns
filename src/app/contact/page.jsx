@@ -147,10 +147,10 @@ export default function ContactPage() {
                     OUR OFFICE
                   </h3>
                   <p className="text-text-main font-semibold">
-                    Arfabad Colony, East Nahar Road,
+                    KPinterns Pvt Ltd.
                   </p>
                   <p className="text-text-main font-semibold">
-                    Bajrangpuri, Patna - 800007,
+                     website: www.kpinterns.com
                   </p>
                   <p className="text-text-main font-semibold">Bihar</p>
                 </div>
@@ -183,16 +183,16 @@ export default function ContactPage() {
                   </h3>
                   <div className="space-y-2">
                     <a
-                      href="tel:9341143791"
+                      href="tel:9142113417"
                       className="block text-text-main font-semibold hover:text-brand-primary transition-colors"
                     >
-                      9341143791
+                        9142113417
                     </a>
                     <a
-                      href="tel:7858967071"
+                      href="tel:9142113417"
                       className="block text-text-main font-semibold hover:text-brand-primary transition-colors"
                     >
-                      7858967071
+                      9142113417
                     </a>
                   </div>
                 </div>
@@ -224,10 +224,10 @@ export default function ContactPage() {
                     EMAIL INQUIRY
                   </h3>
                   <a
-                    href="mailto:contact@ezyintern.in"
+                    href="mailto:info@kpinterns.com"
                     className="text-text-main font-semibold hover:text-brand-primary transition-colors"
                   >
-                    contact@ezyintern.in
+                    info@kpinterns.com
                   </a>
                 </div>
               </div>
